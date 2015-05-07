@@ -50,6 +50,7 @@ namespace CustomizeCoverLetter
                 //totaltext += " \r\n " + doc.Paragraphs[i + 1].Range.Text.ToString();
             }
 
+
             Console.WriteLine("Save document as: ");
             saveAs = Console.ReadLine();
             
